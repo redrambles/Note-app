@@ -1,0 +1,16 @@
+{
+  "name": "note_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ann Cascarano",
+  "license": "ISC",
+  "dependencies": {
+    "jshint": "^2.9.4",
+    "lodash": "^4.17.4",
+    "yargs": "^4.7.1"
+  }
+}
