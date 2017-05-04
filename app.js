@@ -21,10 +21,10 @@ const argv = yargs.command('add', 'Add a new note', {
 })
 .command('list', 'List all notes')
 .command('read', 'Read a note', {
-    title: titleOptions,
+    titleOptions,
 })
 .command('delete', 'Delete a note', {
-    title: titleOptions,
+    titleOptions,
 })
 .help()
 .argv;
